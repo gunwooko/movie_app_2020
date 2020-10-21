@@ -5,7 +5,7 @@ class Detail extends React.Component {
     const { location, history } = this.props;
     console.log(location);
     if (!location.state) {
-      history.push("./");
+      history.push("/");
     }
   }
   render() {
